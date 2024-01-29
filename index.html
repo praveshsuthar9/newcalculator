@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculater-container">
+        <div class="screen">
+            <input type="text" placeholder="0">
+        </div>
+        <table>
+            <tr>
+                <td onclick="myFun(7)">7</td>
+                <td onclick="myFun(8)">8</td>`
+                <td onclick="myFun(9)">9</td>
+                <td onclick="myFun('/')">/</td>
+            </tr>
+            <tr>
+                <td onclick="myFun(4)">4</td>
+                <td onclick="myFun(5)">5</td>
+                <td onclick="myFun(6)">6</td>
+                <td onclick="myFun('*')">*</td>
+            </tr>
+            <tr>
+                <td onclick="myFun(1)">1</td>
+                <td onclick="myFun(2)">2</td>
+                <td onclick="myFun(3)">3</td>
+                <td onclick="myFun('-')">-</td>
+            </tr>
+            <tr>
+                <td onclick="myFun('.')">.</td>
+                <td onclick="myFun(0)">0</td>
+                <td onclick="myFun('+')">+</td>
+                <td onclick="cel('c')" class="clear">C</td>
+            </tr>
+            <tr>
+                <td onclick="del()">D</td>
+                <td colspan="3" onclick="result('=')" class="equ">=</td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
